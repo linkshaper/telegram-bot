@@ -19,8 +19,8 @@ bot.on('message', (message) => {
     if(!message.text.startsWith(config.prefix) || message.from.is_bot) return;
     if(!config.allowedUsers.includes(message.from.id)) return;
     
-	const args = message.text.slice(config.prefix.length).trim().split(/ +/);
-	const command = args.shift().toLowerCase();
+    const args = message.text.slice(config.prefix.length).trim().split(/ +/);
+    const command = args.shift().toLowerCase();
     
     if(command == "help") {
         let text = [
