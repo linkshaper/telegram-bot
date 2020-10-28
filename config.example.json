@@ -1,0 +1,9 @@
+{
+    "linkshaper": {
+        "uri": "https://example.com",
+        "token": "UUID"
+    },
+    "token": "BOT",
+    "allowedUsers": [123456789],
+    "prefix": "/"
+}
